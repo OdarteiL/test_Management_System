@@ -29,5 +29,7 @@ class cars:
         return (f'{self.brand} and {self.model}')
 
 car_1 = cars("Mistibushi", "Carisma")
+car_2 = cars("Ford", "SUV")
 
+print(car_2.car_details())
 print(car_1.car_details())
